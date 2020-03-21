@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">BirthdayCard</string>
-    <string name="hello">Happy Birthday!</string>
-    <string name="from">From Mia</string>
+    <string name="app_name">TemperatureConverter</string>
+    <string name="btn">Convert</string>
+    <string name="textview1">Celsius</string>
+    <string name="textview2">Fahrenheit</string>
 </resources>

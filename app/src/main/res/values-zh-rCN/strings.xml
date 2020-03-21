@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">生日贺卡</string>
-    <string name="hello">生日快乐</string>
-    <string name="from">米娅</string>
+    <string name="app_name">温度转换器</string>
+    <string name="textview1">摄氏度</string>
+    <string name="btn">转换</string>
+    <string name="textview2">华氏度</string>
 </resources>

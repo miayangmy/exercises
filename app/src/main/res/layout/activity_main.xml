@@ -6,39 +6,71 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        app:srcCompat="@mipmap/hb" />
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
-        android:text="@string/hello"
-        android:textSize="40sp"
-        android:gravity="center"
-        android:textColor="#8ADF3535"
-        android:id="@+id/textView"
         android:layout_height="wrap_content"
-        android:layout_marginTop="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/textview1"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:ems="10"
+        android:inputType="date|textUri|textShortMessage|textLongMessage|textAutoCorrect|numberSigned|textVisiblePassword|textWebEditText|textMultiLine|textNoSuggestions|textFilter|number|datetime|textWebEmailAddress|textPersonName|text|textPhonetic|textCapSentences|textPassword|textAutoComplete|textImeMultiLine|textPostalAddress|numberDecimal|textEmailAddress|numberPassword|textCapWords|phone|textEmailSubject|textCapCharacters|time|textWebPassword"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="287dp"
+        android:text="@string/btn" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="183dp"
+        android:text="@string/textview2"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
-        android:layout_marginBottom="34dp"
-        android:text="@string/from"
-        android:textColor="#8ADF3535"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="124dp"
         android:textSize="30sp" />
-
 
 
 </RelativeLayout>
